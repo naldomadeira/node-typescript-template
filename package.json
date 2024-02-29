@@ -1,0 +1,16 @@
+{
+  "name": "typescript-template",
+  "version": "1.0.0",
+  "description": "Boilerplate nodejs, typescript, eslint and prettier",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
+    "prettier": "prettier --write \"src/**/*.ts\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
